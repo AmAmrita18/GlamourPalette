@@ -43,6 +43,7 @@ export const estates = [
     description: [
       `Revitalize your hair with our Radiant Hair Color service at Glamour Palette. Whether you desire a subtle change or a bold new hue, our expert colorists are dedicated to achieving the perfect shade that enhances your natural beauty and suits your personal style. From rich, dimensional colors to seamless balayage and vibrant highlights, we use high-quality, salon-grade products to ensure vibrant, long-lasting results. At Glamour Palette, we take pride in our meticulous attention to detail and personalized approach, ensuring that your hair color not only looks stunning but also feels healthy and nourished. Let us help you discover the perfect color that reflects your individuality and leaves you feeling radiant.!`,
     ],
+    price: "Rs 4K - Rs 10K",
     images: [modernMoka.img1, modernMoka.img2, modernMoka.img3, modernMoka.img4,modernMoka.img5,modernMoka.img6,modernMoka.img7, modernMoka.img8]
   },
   {
@@ -51,6 +52,7 @@ export const estates = [
     description: [
       `Indulge in the ultimate pampering experience with our Rejuvenating Beauty Facial at Glamour Palette. Designed to revitalize and refresh your skin, this luxurious facial treatment combines advanced skincare techniques with high-quality products to deliver radiant results. Our skilled estheticians customize each facial to address your unique skin concerns, from hydration and anti-aging to acne and dullness. Experience deep cleansing, gentle exfoliation, and nourishing masks that leave your skin glowing and rejuvenated. At Glamour Palette, we are committed to helping you achieve a flawless complexion and a serene sense of well-being. Treat yourself to our Rejuvenating Beauty Facial and let your natural beauty shine through.`,
     ],
+    price: "Rs 2K - Rs 8K",
     images: [sodnacSerenity.img1, sodnacSerenity.img2, sodnacSerenity.img3, sodnacSerenity.img4,sodnacSerenity.img5,sodnacSerenity.img6,sodnacSerenity.img7,sodnacSerenity.img8]
   },
   {
@@ -59,17 +61,16 @@ export const estates = [
     description: [
       `Treat yourself to the ultimate hand and foot pampering with our Luxurious Mani-Pedi service at Glamour Palette. Our experienced technicians provide meticulous care, ensuring your nails look flawless and your skin feels soft and rejuvenated. Enjoy a relaxing soak, precise nail shaping, cuticle care, and a gentle exfoliation, followed by a soothing massage and your choice of high-quality polish. Whether you prefer a classic look or a trendy design, our team will make sure your hands and feet are perfectly polished and refreshed. At Glamour Palette, we combine indulgence with expert care to give you the best mani-pedi experience. Let us help you unwind and leave with beautifully manicured nails and soft, smooth skin.`,
     ],
-    
+    price: "Rs 1K - Rs 6K",
     images: [menipedi.img1, menipedi.img2, menipedi.img3, menipedi.img4,menipedi.img5,menipedi.img6,menipedi.img7,menipedi.img8]
   },
   {
     id: `REALES007`,
     title: `VELVET TOUCH WAXING`,
     description: [
-      `Experience the ultimate in smooth, hair-free skin with our professional Waxing services at Glamour Palette. Our skilled technicians use only the highest quality wax to ensure a gentle and effective hair removal process. Whether you're looking to wax your legs, arms, underarms, or bikini area, we provide precise and comfortable waxing that leaves your skin feeling silky and smooth. Our method minimizes discomfort and maximizes results, giving you long-lasting smoothness. At Glamour Palette, we prioritize your comfort and hygiene, using techniques that reduce irritation and ensure a flawless finish. Say goodbye to unwanted hair and hello to beautifully smooth skin with our expert waxing services.
-
-      `,
+      `Experience the ultimate in smooth, hair-free skin with our professional Waxing services at Glamour Palette. Our skilled technicians use only the highest quality wax to ensure a gentle and effective hair removal process. Whether you're looking to wax your legs, arms, underarms, or bikini area, we provide precise and comfortable waxing that leaves your skin feeling silky and smooth. Our method minimizes discomfort and maximizes results, giving you long-lasting smoothness. At Glamour Palette, we prioritize your comfort and hygiene, using techniques that reduce irritation and ensure a flawless finish. Say goodbye to unwanted hair and hello to beautifully smooth skin with our expert waxing services.`,
     ],
+    price: "Rs 500 - Rs 12K",
     images: [gardenVilla.img1, gardenVilla.img2, gardenVilla.img3, gardenVilla.img4,gardenVilla.img5,gardenVilla.img6,gardenVilla.img7,gardenVilla.img8]
   },
   {
@@ -78,6 +79,7 @@ export const estates = [
     description: [
       `Revitalize your complexion with our Refreshing Facial Cleanup at Glamour Palette. This essential skincare treatment is designed to maintain clear, healthy skin by removing impurities and addressing common skin concerns. Our experienced estheticians begin with a deep cleanse to eliminate dirt and oil, followed by a gentle exfoliation to slough away dead skin cells. Next, we perform precise extractions to unclog pores and reduce the appearance of blackheads and blemishes. The treatment concludes with a soothing mask that calms and nourishes your skin, leaving it refreshed and glowing. Ideal for regular maintenance, our Refreshing Facial Cleanup helps you achieve a clearer, brighter complexion and promotes overall skin health.`,
     ],
+    price: "Rs 2K - Rs 7K",
     images: [cleanup.img1, cleanup.img2, cleanup.img3, cleanup.img4,cleanup.img5,cleanup.img6,cleanup.img7, cleanup.img8]
   },
   {
@@ -86,9 +88,8 @@ export const estates = [
     description: [
       `Adorn your hands and feet with our beautiful Mehandi designs at Glamour Palette. Perfect for weddings, festivals, and special occasions, our Mehandi service combines traditional artistry with modern elegance. Our talented henna artists create intricate, custom patterns tailored to your preferences, using natural, high-quality henna that ensures deep, long-lasting color. From delicate floral motifs to elaborate bridal designs, we cater to all styles and occasions. Our attention to detail and artistic flair ensure stunning results that add a touch of cultural richness and beauty to your look. Let Glamour Palette enhance your special moments with our exquisite Mehandi artistry.`,
     ],
-    address:"Courchamps, Moka",
-    price: " Rs11M",
-    averageprice: "257 toises",
+    price: "Rs 2K - Rs 6K",
+    
     
     images: [mehandidesigns.img1, mehandidesigns.img2, mehandidesigns.img3, mehandidesigns.img4,mehandidesigns.img5,mehandidesigns.img6,mehandidesigns.img7, mehandidesigns.img8]
   },
@@ -99,7 +100,7 @@ export const estates = [
     description: [
       `Achieve perfectly shaped eyebrows and a flawless facial appearance with our Precise Threading services at Glamour Palette. Threading is an ancient hair removal technique that provides clean, well-defined brows and smooth skin with precision. Our experienced technicians skillfully use threads to gently remove unwanted hair, ensuring minimal discomfort and maximum accuracy. Whether you're looking to shape your eyebrows, remove upper lip hair, or tidy up facial fuzz, our threading service offers a gentle yet effective solution. At Glamour Palette, we take pride in our meticulous approach, ensuring each client leaves with beautifully shaped brows and a polished look. Embrace the art of threading for a refined and natural enhancement of your facial features.`,
     ],
-    
+    price: "Rs 0K - Rs 1K",
     images: [threadingface.img1, threadingface.img2, threadingface.img3, threadingface.img4,threadingface.img5,threadingface.img6,threadingface.img7, threadingface.img8]
   },
 
