@@ -30,7 +30,7 @@ const BlogInfo = () => {
       <div className="w-full bg-[#32210DB2]">
         <Header transparent={false} />
         <div className="w-[80%] mx-auto max-w-[1200px] h-full py-24 flex flex-col gap-4">
-          <h1 className="lg:text-[60px] md:text-[50px] text-[45px] leading-[69.12px] text-center text-white">
+          <h1 className="md:text-[60px] text-[45px] lg:px-60 text-center text-white md:leading-[80px] tracking-[-2.01px]">
             Glamour Palette Chronicles: <br />
             Exploring Beauty Beyond Borders
           </h1>
@@ -54,7 +54,7 @@ const BlogInfo = () => {
                 />
                 <div className="flex flex-col gap-4 py-8 px-5">
                   <h1 className="text-[#25313C] text-[20px] leading-[23.04px]">
-                    Skincare Secrets: Unveiling Radiant Complexions and Timeless
+                    Skincare Secrets: Unveiling Radiant and Timeless
                     Beauty
                   </h1>
                   <p className="text-[#25313C] text-[14px] leading-[23.04px]">
@@ -65,9 +65,11 @@ const BlogInfo = () => {
                   </p>
                   <div className="flex flex-row items-center gap-4">
                     <img src={peop1} alt="" />
-                    <h1>GlamourGuru</h1>
-                    <h1>|</h1>
+                    <div>
+                    <h1>GlamourGuru</h1>                  
                     <h1>14th February,2024</h1>
+                    </div>
+                   
                   </div>
                 </div>
               </div>
@@ -92,9 +94,11 @@ const BlogInfo = () => {
                   </p>
                   <div className="flex flex-row items-center gap-4">
                     <img src={peop3} alt="" />
+                    <div>
                     <h1>BeautyBrushMaestro</h1>
-                    <h1>|</h1>
+                   
                     <h1>17th April, 2024</h1>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -119,9 +123,11 @@ const BlogInfo = () => {
                   </p>
                   <div className="flex flex-row items-center gap-4">
                     <img src={peop6} alt="" />
-                    <h1>MakeupMaven</h1>
-                    <h1>|</h1>
+                  <div>
+                  <h1>MakeupMaven</h1>
+                   
                     <h1>27th May,2024</h1>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -135,7 +141,7 @@ const BlogInfo = () => {
                 />
                 <div className="flex flex-col gap-4 py-8 px-5">
                   <h1 className="text-[#25313C] text-[20px] leading-[23.04px]">
-                    Beauty Diaries: Tales of Transformation and Self-Expression
+                    Beauty Diaries: Tales of  Self Transformation
                   </h1>
                   <p className="text-[#25313C] text-[14px] leading-[23.04px]">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -145,9 +151,11 @@ const BlogInfo = () => {
                   </p>
                   <div className="flex flex-row items-center gap-4">
                     <img src={peop7} alt="" />
-                    <h1>CosmeticsConnoisseur</h1>
-                    <h1>|</h1>
+                  <div>
+                  <h1>CosmeticsConnoisseur</h1>
+                    
                     <h1>28th June,2024</h1>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -171,9 +179,10 @@ const BlogInfo = () => {
                   </p>
                   <div className="flex flex-row items-center gap-4">
                     <img src={peop8} alt="" />
+                    <div>
                     <h1>GlamFinesse</h1>
-                    <h1>|</h1>
                     <h1>21rd July,2024</h1>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -197,9 +206,11 @@ const BlogInfo = () => {
                   </p>
                   <div className="flex flex-row items-center gap-4">
                     <img src={peop9} alt="" />
-                    <h1>BeautyBlendMaster</h1>
-                    <h1>|</h1>
+                   <div>
+                   <h1>BeautyBlendMaster</h1>
+                  
                     <h1>18th August,2024</h1>
+                   </div>
                   </div>
                 </div>
               </div>

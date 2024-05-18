@@ -22,7 +22,7 @@ const ContactForm = () => {
       }}
     >
       <div className="w-full h-full bg-[#32210DB2]">
-        <div className="w-[80%]  h-full md:mx-auto mx-5 max-w-[1200px] md:py-32 py-24 flex lg:flex-row flex-col gap-x-20 ">
+        <div className="md:w-[80%] mx-3 h-full md:mx-auto justify-center max-w-[1200px] md:py-32 py-24 flex lg:flex-row flex-col gap-x-20 ">
           <div className="mx-auto bg-[#efece899] md:px-32 px-5 py-10 rounded-3xl flex lg:flex-row flex-col gap-16">
             <div
               className="md:w-[450px] lg:mx-0 mx-auto md:h-[595px] w-[310px] h-[450px] rounded-t-full shadow-2xl"
