@@ -21,7 +21,7 @@ const AboutInfo = () => {
         </div>
 
         <div className="md:w-[50%] h-full mx-auto max-w-[1200px] flex flex-col gap-12 md:pl-12 lg:pr-32 md:pr-16 pb-24 md:px-10">
-          <h1 className="md:text-[50px] text-[40px] text-black leading-[57.6px] tracking-[-1.26px]">
+          <h1 className="md:text-[50px] md:mt-0 mt-5 text-[40px] text-black leading-[57.6px] tracking-[-1.26px]">
           Exploring Your Beauty Dreams in Bangalore
           </h1>
           <p className="text-[20px] text-black leading-[28px] tracking-[-0.5px]">

@@ -21,7 +21,7 @@ const AboutInfo2 = () => {
         </div>
 
         <div className="md:w-[50%] w-full lg:pt-44 md:pb-44 pb-24 h-full mx-auto max-w-[1200px] flex flex-col gap-8 md:pr-12 pr-10 pl-10 lg:pl-32 md:pl-20">
-          <h1 className="text-[50px] text-black leading-[57.6px] tracking-[-1.26px]">
+          <h1 className="md:text-[50px] md:mt-0 mt-5 text-[40px] text-black leading-[57.6px] tracking-[-1.26px]">
           Personalized and Curated Beauty Experience          </h1>
           <p className="text-[20px] text-black leading-[28px] tracking-[-0.5px]">
           Whether you're seeking a glamorous makeover, a rejuvenating skincare session, or a stunning bridal look, our expert team is committed to crafting a beauty experience that fulfills your every desire.

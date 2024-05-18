@@ -26,7 +26,7 @@ const FindPlace = () => {
     >
       <div className="w-[80%] h-full mx-auto max-w-[1200px] py-28">
         <div className="w-[170px] h-1 bg-black rounded-md"></div>
-        <h1 className="text-[50px] py-4 uppercase text-black leading-[57.6px] tracking-[-1.26px] mb-5">
+        <h1 className="md:text-[50px] text-[40px] py-4 uppercase text-black leading-[57.6px] tracking-[-1.26px] mb-5">
           Find your next beauty bliss
         </h1>
 
@@ -39,7 +39,7 @@ const FindPlace = () => {
             />
           </div>
 
-          <div className=" py-4 bg-[#1E1E1E]">
+          <div className=" bg-[#1E1E1E] flex flex-col justify-center">
             <h1 className="text-white font-[400] md:text-[40px] text-[30px] md:mt-0 mt-6 text-center  leading-[40px] px-3">
               Bridal Grace
             </h1>
@@ -53,10 +53,6 @@ const FindPlace = () => {
               impedit cumque deleniti quis omnis harum. Lorem ipsum dolor sit
               amet.
             </p>
-            <p className="lg:hidden text-[19px] mx-auto w-[80%] text-center text-[#4D4D4D] font-[500]">
-              Lorem ipsum dolor sit amet consectetur elit.
-             
-            </p>
           </div>
 
           <div className="">
@@ -66,7 +62,7 @@ const FindPlace = () => {
               className="object-cover h-[300px] w-[300px]"
             />
           </div>
-          <div className=" py-4 bg-[#1E1E1E]">
+          <div className=" flex flex-col justify-center bg-[#1E1E1E]">
             <h1 className="text-white font-[400] md:text-[40px] text-[30px] md:mt-0 mt-6 text-center  leading-[40px] px-3">
               Glam & Glow
             </h1>
@@ -80,12 +76,8 @@ const FindPlace = () => {
               impedit cumque deleniti quis omnis harum. Lorem ipsum dolor sit
               amet.
             </p>
-            <p className="lg:hidden text-[19px] mx-auto w-[80%] text-center text-[#4D4D4D] font-[500]">
-              Lorem ipsum dolor sit amet consectetur elit.
-             
-            </p>
           </div>
-          <div className=" py-4 bg-[#1E1E1E]">
+          <div className=" flex flex-col justify-center bg-[#1E1E1E]">
             <h1 className="text-white font-[400] md:text-[40px] text-[30px] md:mt-0 mt-6 text-center  leading-[40px] px-3">
               Cut & Curls
             </h1>
@@ -99,10 +91,6 @@ const FindPlace = () => {
               impedit cumque deleniti quis omnis harum. Lorem ipsum dolor sit
               amet.
             </p>
-            <p className="lg:hidden text-[19px] mx-auto w-[80%] text-center text-[#4D4D4D] font-[500]">
-              Lorem ipsum dolor sit amet consectetur elit.
-             
-            </p>
           </div>
           <div className="">
             <img
@@ -112,7 +100,7 @@ const FindPlace = () => {
             />
           </div>
 
-          <div className=" py-4 bg-[#1E1E1E]">
+          <div className=" flex flex-col justify-center bg-[#1E1E1E]">
             <h1 className="text-white font-[400] md:text-[40px] text-[30px] md:mt-0 mt-6 text-center  leading-[40px] px-3">
               Hair Color
             </h1>
@@ -125,10 +113,6 @@ const FindPlace = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
               impedit cumque deleniti quis omnis harum. Lorem ipsum dolor sit
               amet.
-            </p>
-            <p className="lg:hidden text-[19px] mx-auto w-[80%] text-center text-[#4D4D4D] font-[500]">
-              Lorem ipsum dolor sit amet consectetur elit.
-             
             </p>
           </div>
           <div className="">
@@ -145,7 +129,7 @@ const FindPlace = () => {
               className="object-cover h-[300px] w-[300px]"
             />
           </div>
-          <div className=" py-4 bg-[#1E1E1E]">
+          <div className=" flex flex-col justify-center bg-[#1E1E1E]">
             <h1 className="text-white font-[400] md:text-[40px] text-[30px] md:mt-0 mt-6 text-center  leading-[40px] px-3">
               Beauty Facial{" "}
             </h1>
@@ -159,10 +143,6 @@ const FindPlace = () => {
               impedit cumque deleniti quis omnis harum. Lorem ipsum dolor sit
               amet.
             </p>
-            <p className="lg:hidden text-[19px] mx-auto w-[80%] text-center text-[#4D4D4D] font-[500]">
-              Lorem ipsum dolor sit amet consectetur elit.
-             
-            </p>
           </div>
           <div className="">
             <img
@@ -171,7 +151,7 @@ const FindPlace = () => {
               className="object-cover h-[300px] w-[300px]"
             />
           </div>
-          <div className=" py-4 bg-[#1E1E1E]">
+          <div className=" flex flex-col justify-center bg-[#1E1E1E]">
             <h1 className="text-white font-[400] md:text-[40px] text-[30px] md:mt-0 mt-6 text-center  leading-[40px] px-3">
               Meni-Pedi
             </h1>
@@ -185,12 +165,8 @@ const FindPlace = () => {
               impedit cumque deleniti quis omnis harum. Lorem ipsum dolor sit
               amet.
             </p>
-            <p className="lg:hidden text-[19px] mx-auto w-[80%] text-center text-[#4D4D4D] font-[500]">
-              Lorem ipsum dolor sit amet consectetur elit.
-             
-            </p>
           </div>
-          <div className=" py-4 bg-[#1E1E1E]">
+          <div className=" flex flex-col justify-center bg-[#1E1E1E]">
             <h1 className="text-white font-[400] md:text-[40px] text-[30px] md:mt-0 mt-6 text-center  leading-[40px] px-3">
               Waxing
             </h1>
@@ -204,10 +180,6 @@ const FindPlace = () => {
               impedit cumque deleniti quis omnis harum. Lorem ipsum dolor sit
               amet.
             </p>
-            <p className="lg:hidden text-[19px] mx-auto w-[80%] text-center text-[#4D4D4D] font-[500]">
-              Lorem ipsum dolor sit amet consectetur elit.
-             
-            </p>
           </div>
           <div className="">
             <img
@@ -216,7 +188,7 @@ const FindPlace = () => {
               className="object-cover h-[300px] w-[300px]"
             />
           </div>
-          <div className=" py-4 bg-[#1E1E1E]">
+          <div className="flex flex-col justify-center bg-[#1E1E1E]">
             <h1 className="text-white font-[400] md:text-[40px] text-[30px] md:mt-0 mt-6 text-center  leading-[40px] px-3">
               Cleanup
             </h1>
@@ -229,10 +201,6 @@ const FindPlace = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
               impedit cumque deleniti quis omnis harum. Lorem ipsum dolor sit
               amet.
-            </p>
-            <p className="lg:hidden text-[19px] mx-auto w-[80%] text-center text-[#4D4D4D] font-[500]">
-              Lorem ipsum dolor sit amet consectetur elit.
-             
             </p>
           </div>
           <div className="">
@@ -249,7 +217,7 @@ const FindPlace = () => {
               className="object-cover h-[300px] w-[300px]"
             />
           </div>
-          <div className=" py-4 bg-[#1E1E1E]">
+          <div className=" flex flex-col justify-center bg-[#1E1E1E]">
             <h1 className="text-white font-[400] md:text-[40px] text-[30px] md:mt-0 mt-6 text-center  leading-[40px] px-3">
               Mehandi
             </h1>
@@ -263,10 +231,6 @@ const FindPlace = () => {
               impedit cumque deleniti quis omnis harum. Lorem ipsum dolor sit
               amet.
             </p>
-            <p className="lg:hidden text-[19px] mx-auto w-[80%] text-center text-[#4D4D4D] font-[500]">
-              Lorem ipsum dolor sit amet consectetur elit.
-             
-            </p>
           </div>
           <div className="">
             <img
@@ -275,7 +239,7 @@ const FindPlace = () => {
               className="object-cover h-[300px] w-[300px]"
             />
           </div>
-          <div className=" py-4 bg-[#1E1E1E]">
+          <div className=" flex flex-col justify-center bg-[#1E1E1E]">
             <h1 className="text-white font-[400] md:text-[40px] text-[30px] md:mt-0 mt-6 text-center  leading-[40px] px-3">
               Threading
             </h1>
@@ -289,12 +253,7 @@ const FindPlace = () => {
               impedit cumque deleniti quis omnis harum. Lorem ipsum dolor sit
               amet.
             </p>
-            <p className="lg:hidden text-[19px] mx-auto w-[80%] text-center text-[#4D4D4D] font-[500]">
-              Lorem ipsum dolor sit amet consectetur elit.
-             
-            </p>
           </div>
-          
         </div>
       </div>
     </div>
